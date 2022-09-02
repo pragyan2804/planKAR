@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "321514477356",
+    "project_id": "plankar-c3002",
+    "storage_bucket": "plankar-c3002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321514477356:android:b8fc70abc0b89fd8fbfe89",
+        "android_client_info": {
+          "package_name": "com.example.atry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321514477356-a60o5jdgi0ngnoj31h20vnflnvjt45ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB19HfkQkTSmoJVOwTqJcXA4nEvElEBqP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321514477356-a60o5jdgi0ngnoj31h20vnflnvjt45ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

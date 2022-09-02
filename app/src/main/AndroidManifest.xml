@@ -7,9 +7,8 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/logo7"
+        android:icon="@drawable/logoappnewed1"
         android:label="planKAR"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Try"
         tools:targetApi="31">

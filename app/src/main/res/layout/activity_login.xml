@@ -5,7 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blackbg"
+    android:background="@drawable/appbg4"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -13,23 +13,19 @@
 
     tools:context=".ui.login.LoginActivity">
 
-    <TextView
-        android:id="@+id/textView"
+
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:fontFamily="sans-serif-medium"
-        android:foregroundGravity="center"
-        android:foregroundTint="#000000"
-        android:gravity="center"
-        android:text="planKAR"
-        android:textColor="#FFFFFF"
-        android:textSize="60sp"
-        android:textStyle="normal|bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/login"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logotext" />
 
     <EditText
         android:id="@+id/username"
@@ -37,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="340dp"
         android:autofillHints=""
-        android:background="#3b3a3a"
+        android:background="@drawable/roundedcorner"
         android:gravity="center"
         android:hint="USERNAME"
         android:inputType="text"
@@ -55,7 +51,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:background="#3b3a3a"
+        android:background="@drawable/roundedcorner"
         android:gravity="center"
         android:hint="PASSWORD"
         android:imeActionLabel="@string/action_sign_in_short"
@@ -75,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="start"
         android:layout_marginBottom="64dp"
+        android:background="#000000"
         android:enabled="false"
         android:text="SIGN IN"
         app:layout_constraintBottom_toBottomOf="parent"
